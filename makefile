@@ -1,6 +1,6 @@
-SOURCES=$(wildcard src/)
-SOURCES1=$(wildcard src/factory/)
-SOURCES2=$(wildcard src/util/)
+SOURCES=$(wildcard src)
+SOURCES1=$(wildcard src/factory)
+SOURCES2=$(wildcard src/util)
 
 
 

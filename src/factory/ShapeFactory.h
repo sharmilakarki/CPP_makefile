@@ -8,13 +8,14 @@
 #ifndef SHAPEFACTORY_H_
 #define SHAPEFACTORY_H_
 #include "Shape.h"
+#include <iostream>
 
+using namespace std;
 
 class ShapeFactory {
 public:
 	ShapeFactory();
 	virtual ~ShapeFactory();
-
 	Shape *getShape(string name);
 };
 

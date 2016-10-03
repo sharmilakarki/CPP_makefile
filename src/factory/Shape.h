@@ -16,6 +16,7 @@ public:
 	Shape();
 	virtual ~Shape();
 
+
 	void virtual draw()=0;
 };
 
