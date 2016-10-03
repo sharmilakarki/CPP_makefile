@@ -10,6 +10,7 @@
 #include "../util/Square.h"
 #include "../util/Triangle.h"
 
+
 ShapeFactory::ShapeFactory() {
 	// TODO Auto-generated constructor stub
 

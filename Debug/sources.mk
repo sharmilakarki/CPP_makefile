@@ -26,4 +26,5 @@ SUBDIRS := \
 src/util \
 src/factory \
 src \
+. \
 

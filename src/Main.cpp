@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include "factory/ShapeFactory.h"
-#include "util/Shape.h"
+#include "factory/Shape.h"
 
 int main() {
 	string s;
@@ -16,5 +16,7 @@ int main() {
 	cin>>s;
 	Shape *shape = shapeFactory->getShape(s);
 	shape->draw();
+
+
 	return 0;
 }

@@ -7,7 +7,7 @@
 
 #ifndef RECTANGLE_H_
 #define RECTANGLE_H_
-#include "Shape.h"
+#include "../factory/Shape.h"
 
 using namespace std;
 class Rectangle:public Shape {

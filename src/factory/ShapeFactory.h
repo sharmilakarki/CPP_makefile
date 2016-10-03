@@ -7,11 +7,8 @@
 
 #ifndef SHAPEFACTORY_H_
 #define SHAPEFACTORY_H_
-#include "../util/Shape.h"
-#include <iostream>
+#include "Shape.h"
 
-
-using namespace std;
 
 class ShapeFactory {
 public:

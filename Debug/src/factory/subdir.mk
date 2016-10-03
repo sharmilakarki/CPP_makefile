@@ -4,12 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/factory/Shape.cpp \
 ../src/factory/ShapeFactory.cpp 
 
 OBJS += \
+./src/factory/Shape.o \
 ./src/factory/ShapeFactory.o 
 
 CPP_DEPS += \
+./src/factory/Shape.d \
 ./src/factory/ShapeFactory.d 
 
 

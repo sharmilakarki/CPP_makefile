@@ -8,7 +8,7 @@
 #ifndef TRIANGLE_H_
 #define TRIANGLE_H_
 #include <iostream>
-#include "Shape.h"
+#include "../factory/Shape.h"
 
 class Triangle :public Shape{
 public:
